@@ -70,11 +70,11 @@
     </script>
     <title>Tea House</title>
   </head>
-  <body
-    class="border border-black mx-auto w-mobile-width lg:w-laptop-width py-10"
-  >
+  <body>
     <!-- Header start -->
-    <header>
+    <header
+      class="border border-black mx-auto w-mobile-width lg:w-laptop-width pt-10"
+    >
       <!-- Banner Section -->
       <div class="banner_container grid grid-cols-1 gap-10 lg:grid-cols-2">
         <!-- Banner_left_container -->
@@ -112,7 +112,7 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="border border-black mx-auto w-mobile-width lg:w-laptop-width">
       <!-- Our features products section -->
       <section class="products_container border border-black py-12">
         <!-- products description here -->
@@ -229,7 +229,7 @@
         </div>
       </section>
       <!-- News and event section -->
-      <section class="news_containner my-16">
+      <section class="news_containner mt-16">
         <div
           class="news_description max-w-news-description text-center mx-auto mb-10 space-y-4"
         >
@@ -281,5 +281,77 @@
         </div>
       </section>
     </main>
+
+    <!-- footer section -->
+    <footer class="bg-red-400 py-10 lg:py-20 mt-10 lg:mt-20">
+      <div class="mx-auto w-mobile-width lg:w-laptop-width">
+        <!-- footer top section -->
+        <div class="footer_top lg:flex justify-between items-center">
+          <img
+            class="mx-auto lg:mx-0 mb-12 lg:mb-0"
+            src="images/footer_logo.png"
+            alt=""
+          />
+          <div class="footer_top_right flex items-center gap-5">
+            <p class="text-lg text-white">Ready to get strated?</p>
+            <a
+              class="inline-block py-2 px-5 bg-white font-bold text-lg rounded-lg"
+              href=""
+              >Get Started</a
+            >
+          </div>
+        </div>
+        <div
+          class="h-[1px] border-none bg-[rgba(255, 255, 255, 0.2)] my-7"
+        ></div>
+        <!-- footer middle section -->
+        <div
+          class="footer_middle grid grid-cols-1 text-center gap-10 lg:grid-cols-4 lg:text-left"
+        >
+          <ul>
+            <li class="text-xl font-semibold text-white mb-4">Quick Links</li>
+            <li><a class="text-gray-50 text-lg" href="">Home</a></li>
+            <li><a class="text-gray-50 text-lg" href="">Insurance</a></li>
+            <li><a class="text-gray-50 text-lg" href="">Insurance</a></li>
+            <li><a class="text-gray-50 text-lg" href="">Privacy Policy</a></li>
+          </ul>
+          <ul>
+            <li class="text-xl font-semibold text-white mb-4">Our Service</li>
+            <li><a class="text-gray-50 text-lg" href="">Life Insurance</a></li>
+            <li><a class="text-gray-50 text-lg" href="">Car Insurance</a></li>
+            <li>
+              <a class="text-gray-50 text-lg" href="">Health Insurance</a>
+            </li>
+            <li><a class="text-gray-50 text-lg" href="">House Insurance</a></li>
+          </ul>
+          <ul>
+            <li class="text-xl font-semibold text-white mb-4">Help</li>
+            <li><a class="text-gray-50 text-lg" href="">FAQs</a></li>
+            <li><a class="text-gray-50 text-lg" href="">Contact Us</a></li>
+          </ul>
+          <div class="newsletter">
+            <h2 class="text-2xl text-white mb-5">
+              Subscribe to our newsletter
+            </h2>
+            <input
+              class="bg-transparent py-4 text-white text-xl placeholder-white outline-none border-b placeholder:text-xl"
+              type="text"
+              placeholder="Email Address"
+            /><i class="fa-solid fa-arrow-right text-xl text-white"></i>
+            <div class="footer_icons">
+              <a href=""
+                ><i
+                  class="fa-brands fa-facebook-f text-xl text-white p-3"
+                ></i></a
+              ><a href=""
+                ><i class="fa-brands fa-twitter text-xl text-white p-3"></i></a
+              ><a href=""
+                ><i class="fa-brands fa-instagram text-xl text-white p-3"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
