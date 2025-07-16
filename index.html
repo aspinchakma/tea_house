@@ -30,11 +30,14 @@
               clifford: "#da373d",
               //   custom color
               pera: "#777777",
+              "background-two": "rgba(230, 166, 35, 0.1);",
+              "background-three": "rgba(87, 118, 57, 0.1);",
             },
             // Max-width configuration,
             maxWidth: {
               "pera-width": "513px",
               "pera-two": "900px",
+              "mini-container": "413px",
             },
             // Custom width for mobile and large-device
             width: {
@@ -47,6 +50,11 @@
                 "linear-gradient(270.00deg, rgb(255, 0, 0) 0%,rgb(255, 137, 56) 100%);",
               "product-background":
                 "linear-gradient(180.00deg, rgb(244, 244, 244),rgba(244, 244, 244, 0) 100%);",
+              "background-one":
+                " linear-gradient(270.00deg, rgba(255, 0, 0,0.1) 0%,rgba(255, 137, 56, 0.1) 100%);",
+
+              "background-four":
+                "linear-gradient(90.00deg, rgb(217, 217, 217),rgba(255, 255, 255, 0) 100%);",
             },
             // Custome font family
             fontFamily: {
@@ -125,7 +133,7 @@
           <div class="product text-center bg-product-background p-8 rounded-xl">
             <div class="product_image">
               <img
-                class="border border-dashed mx-auto"
+                class="border-2 border-gray-300 border-dashed mx-auto"
                 src="images/tea-1.png"
                 alt=""
               />
@@ -137,7 +145,7 @@
           <div class="product text-center bg-product-background p-8 rounded-xl">
             <div class="product_image">
               <img
-                class="border border-dashed mx-auto"
+                class="border-2 border-gray-300 border-dashed mx-auto"
                 src="images/tea-2.png"
                 alt=""
               />
@@ -149,7 +157,7 @@
           <div class="product text-center bg-product-background p-8 rounded-xl">
             <div class="product_image">
               <img
-                class="border border-dashed mx-auto"
+                class="border-2 border-gray-300 border-dashed mx-auto"
                 src="images/tea-3.png"
                 alt=""
               />
@@ -161,7 +169,7 @@
           <div class="product text-center bg-product-background p-8 rounded-xl">
             <div class="product_image">
               <img
-                class="border border-dashed mx-auto"
+                class="border-2 border-gray-300 border-dashed mx-auto"
                 src="images/tea-4.png"
                 alt=""
               />
@@ -171,6 +179,54 @@
           </div>
         </div>
       </section>
+
+      <!-- Great Tea Section -->
+      <div
+        class="great_tea_container grid gap-6 grid-cols-1 lg:grid-cols-2 mt-14"
+      >
+        <!-- great tea left side start -->
+        <div
+          class="great_tea_left grid gap-5 grid-cols-1 lg:grid-cols-2 lg:grid-rows-3 order-last lg:order-first mt-7 lg:mt-0"
+        >
+          <div class="hidden lg:rounded-xl lg:bg-background-one lg:block"></div>
+          <div class="lg:row-span-2 p-10 rounded-xl bg-background-two">
+            <img
+              class="border-2 border-gray-300 border-dashed mx-auto"
+              src="images/fresh-1.png"
+              alt=""
+            />
+          </div>
+          <div class="lg:row-span-2 p-10 rounded-xl bg-background-three">
+            <img
+              class="border-2 border-gray-300 border-dashed mx-auto"
+              src="images/fresh-2.png"
+              alt=""
+            />
+          </div>
+          <di class="hidden lg:block bg-background-four rounded-xl"></di>
+        </div>
+        <!-- great tea right side start -->
+        <div class="order-1 great_tea_right space-y-4">
+          <h3 class="font-bold text-4xl">Great Tea, Freshly Presented</h3>
+          <p class="text-pera text-lg">
+            The meaning of gong cha is chanese is to provide the best tea to
+            emperor from all possessions . It represents the highest quality and
+            self expectation. Establishing in 2006, Gong cha had been deeply
+            appreciated by its custoers because of good words of mouth and
+            unique customized service orginated from Taiwan.
+          </p>
+          <h4 class="text-xl font-bold">Unique Taste</h4>
+          <p class="text-lg text-pera max-w-mini-container">
+            A Unique and different style from other teapots gives a luxurious
+            and minimalist impression
+          </p>
+          <h4 class="text-xl font-bold">Premium Quality</h4>
+          <p class="text-lg text-pera max-w-mini-container">
+            Premium Quality that makes tea more elegant and more durable when
+            you use it.
+          </p>
+        </div>
+      </div>
     </main>
   </body>
 </html>
