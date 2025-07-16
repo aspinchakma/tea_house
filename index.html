@@ -58,6 +58,8 @@
 
               "background-four":
                 "linear-gradient(90.00deg, rgb(217, 217, 217),rgba(255, 255, 255, 0) 100%);",
+              "meet-background":
+                "linear-gradient(270.00deg, rgb(255, 0, 0) 0%,rgb(255, 137, 56) 100%);",
             },
             // Custome font family
             fontFamily: {
@@ -89,9 +91,9 @@
             Your Taste Buds.
           </p>
           <a
-            class="bg-button-background px-5 py-3 inline-block text-xl font-bold text-white rounded-lg hover:bg-button-background-hover"
+            class="bg-button-background px-5 py-3 inline-block text-xl font-semibold text-white rounded-lg hover:bg-button-background-hover"
             href=""
-            >Explore More <i class="fa-solid fa-arrow-right ml-1"></i
+            >Explore More <i class="fa-solid fa-arrow-right ml-1 -rotate-45"></i
           ></a>
         </div>
 
@@ -202,7 +204,7 @@
               alt=""
             />
           </div>
-          <di class="hidden lg:block bg-background-four rounded-xl"></di>
+          <div class="hidden lg:block bg-background-four rounded-xl"></div>
         </div>
         <!-- great tea right side start -->
         <div class="order-1 great_tea_right space-y-4">
@@ -224,6 +226,77 @@
             Premium Quality that makes tea more elegant and more durable when
             you use it.
           </p>
+        </div>
+      </section>
+
+      <!-- Review section start -->
+      <section
+        class="review_container py-8 px-4 bg-meet-background rounded-xl lg:px-16 lg:py-20 mt-20 grid grid-cols-1 lg:grid-cols-2 lg:gap-20 gap-10 items-center"
+      >
+        <!-- review Left -->
+        <div class="review_left text-white">
+          <h2 class="text-4xl font-semibold">
+            Meet Our Super <br />
+            Clients
+          </h2>
+          <p class="text-lg mt-4 mb-5">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+          <a
+            class="rounded-md text-lg font-semibold bg-white px-5 py-2 inline-block client_button text-red-500"
+            href=""
+            >Show All</a
+          >
+        </div>
+        <!-- Review Right -->
+        <div class="review_right relative">
+          <!-- client_review -->
+          <div
+            class="client_review bg-white rounded-xl p-7 relative opacity-30"
+          >
+            <p class="text-pera text-lg pb-5">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <h4 class="font-bold">Ilham Yuda</h4>
+            <p class="text-[16px] text-pera">Businessman</p>
+            <div class="absolute -top-5 -left-5">
+              <img src="images/client.png" alt="" />
+            </div>
+          </div>
+
+          <!-- client review two -->
+          <div
+            class="client_review bg-white rounded-xl p-7 relative mt-10 opacity-30"
+          >
+            <p class="text-pera text-lg pb-5">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <h4 class="font-bold">Ilham Yuda</h4>
+            <p class="text-[16px] text-pera">Businessman</p>
+            <div class="absolute -top-5 -left-5">
+              <img src="images/client.png" alt="" />
+            </div>
+          </div>
+
+          <!-- focused client review -->
+          <div
+            class="client_review bg-white rounded-xl p-7 absolute top-1/4 lg:top-20 lg:-left-12"
+          >
+            <p class="text-pera text-lg pb-5">
+              We are providing the best and suitable home insurance services for
+              the people who are interested to treatment
+            </p>
+            <h4 class="font-bold">Ilham Yuda</h4>
+            <p class="text-[16px] text-pera">Businessman</p>
+            <div class="absolute -top-5 -left-5">
+              <img src="images/client.png" alt="" />
+            </div>
+          </div>
         </div>
       </section>
       <!-- News and event section -->
